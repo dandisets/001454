@@ -54,9 +54,9 @@ citation: Keyes, Laurel R; Tye, Kay M; Patel, Reesha R; Patarino, Makenzie; Kim,
   Paminuan, Rachelle; Taschbach, Felix H.; Li, Hao; Lee, Christopher R.; van Hoek,
   Aniek; Cazares, Christian; Miranda, Raymundo L.; Jia, Caroline; Delahanty, Jeremy;
   Batra, Kanha; Wichmann, Romy; Libster, Avraham; Pereira, Talmo D; Benna, Marcus
-  K; Joo, Bitna; White, Jesse (2026) Social isolation recruits amygdala–medial prefrontal
-  cortex projections to escalate alcohol drinking in male mice (Version draft) [Data
-  set]. DANDI Archive. https://dandiarchive.org/dandiset/001454/draft
+  K; Joo, Bitna; White, Jesse (2026) Data supporting "Social isolation recruits amygdala–medial
+  prefrontal cortex projections to escalate alcohol drinking in male mice" (Version
+  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001454/draft
 contributor:
 - affiliation: []
   email: lkeyes@salk.edu
@@ -271,23 +271,23 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001454/versions/draft/assets/
-name: Social isolation recruits amygdala–medial prefrontal cortex projections to escalate
-  alcohol drinking in male mice
+name: Data supporting "Social isolation recruits amygdala–medial prefrontal cortex
+  projections to escalate alcohol drinking in male mice"
 relatedResource:
+- name: Social isolation recruits amygdala–medial prefrontal cortex projections to
+    escalate alcohol drinking in male mice (Nature Neuro)
+  relation: dcite:IsPublishedIn
+  repository: Nature.com
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://doi.org/10.1038/s41593-026-02413-x
 - name: Social isolation recruits amygdala-cortical circuitry to escalate alcohol
     drinking
   relation: dcite:IsPublishedIn
   repository: biorxiv.org
-  resourceType: dcite:JournalArticle
-  schemaKey: Resource
-  url: https://www.biorxiv.org/content/10.1101/2023.11.09.566421v1
-- name: Social isolation recruits amygdala-cortical circuitry to escalate alcohol
-    drinking.
-  relation: dcite:IsPreviousVersionOf
-  repository: bioRxiv
   resourceType: dcite:Preprint
   schemaKey: Resource
-  url: https://doi.org/10.1101/2023.11.09.566421
+  url: https://www.biorxiv.org/content/10.1101/2023.11.09.566421v1
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.9
