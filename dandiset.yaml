@@ -12,9 +12,9 @@ acknowledgement: We would like to acknowledge the Scripps Research Animal Models
   Open Access to Publications policy.
 assetsSummary:
   approach:
-  - name: behavioral approach
-    schemaKey: ApproachType
   - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
+  - name: behavioral approach
     schemaKey: ApproachType
   - name: electrophysiological approach
     schemaKey: ApproachType
@@ -27,15 +27,15 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
   - name: one-photon microscopy technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
     schemaKey: MeasurementTechniqueType
   - name: current clamp technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 102017762504
-  numberOfFiles: 169
-  numberOfSubjects: 42
+  numberOfBytes: 104687587676
+  numberOfFiles: 359
+  numberOfSubjects: 78
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -43,10 +43,10 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - OnePhotonSeries
-  - PlaneSegmentation
-  - BehavioralEvents
-  - ProcessingModule
   - ImagingPlane
+  - ProcessingModule
+  - BehavioralEvents
+  - PlaneSegmentation
   - OpticalChannel
   - CurrentClampSeries
   - CurrentClampStimulusSeries
