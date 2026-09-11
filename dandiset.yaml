@@ -58,9 +58,12 @@ citation: Patel, Reesha R; Kim, Kelly; Patarino, Makenzie; Paminuan, Rachelle; T
   Felix H.; Li, Hao; Joo, Bitna; Palle, Anna; Yu, Xianru; Lee, Christopher R.; van
   Hoek, Aniek; White, Jesse; Castro, Rogelio; Cazares, Christian; Miranda, Raymundo
   L.; Jia, Caroline; Delahanty, Jeremy; Batra, Kanha; Keyes, Laurel R; Libster, Avraham;
-  Wichmann, Romy; Pereira, Talmo D; Benna, Marcus K; Tye, Kay M (2026) Data supporting
-  "Social isolation recruits amygdala–medial prefrontal cortex projections to escalate
-  alcohol drinking in male mice" (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001454/draft
+  Wichmann, Romy; Pereira, Talmo D; Benna, Marcus K; Tye, Kay M; National Institute
+  of Mental Health; NIH/NIMH Blueprint D-SPAN Award; NIH/NIAAA; NIH/NIGMS IRACDA Award;
+  NIH/NIDA K99/R00 Pathway to Independence Award; Brain and Behavior Research Foundation
+  Young Investigator Grant ; Whitehall Foundation Grant (2026) Data supporting "Social
+  isolation recruits amygdala–medial prefrontal cortex projections to escalate alcohol
+  drinking in male mice" (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001454/draft
 contributor:
 - email: reesha.patel@northwestern.edu
   includeInCitation: true
@@ -70,49 +73,6 @@ contributor:
   - dcite:Author
   - dcite:ProjectManager
   schemaKey: Person
-- identifier: https://ror.org/03xez1567
-  name: Salk Institute for Biological Studies
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
-- identifier: https://ror.org/006w34k90
-  name: Howard Hughes Medical Institute
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
-- identifier: https://ror.org/00kztt736
-  name: The Kavli Foundation
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
-- awardNumber: R01MH115920 (NIMH)
-  includeInCitation: false
-  name: National Institute of Mental Health
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
-- includeInCitation: false
-  name: Dolby Family Fund
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
-- awardNumber: R37-MH102441 (NIMH)
-  name: National Institute of Mental Health
-  schemaKey: Organization
-- awardNumber: Pioneer Award DP1-AT009925 (NCCIH)
-  includeInCitation: false
-  name: NIH Office of the Director Pioneer Award
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
-- awardNumber: K99/R00 Pathway to Independence Award (AA029180)
-  name: NIH/NIAAA
-  schemaKey: Organization
-- awardNumber: K99 DA055111
-  name: NIH/NIDA K99/R00 Pathway to Independence Award
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
 - includeInCitation: true
   name: Kim, Kelly
   roleName:
@@ -146,6 +106,29 @@ contributor:
   roleName:
   - dcite:DataCollector
   schemaKey: Person
+- identifier: https://ror.org/03xez1567
+  name: Salk Institute for Biological Studies
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- identifier: https://ror.org/006w34k90
+  name: Howard Hughes Medical Institute
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- identifier: https://ror.org/00kztt736
+  name: The Kavli Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- includeInCitation: false
+  name: Dolby Family Fund
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: K99/R00 Pathway to Independence Award (AA029180)
+  name: NIH/NIAAA
+  schemaKey: Organization
 - includeInCitation: true
   name: Palle, Anna
   schemaKey: Person
@@ -248,6 +231,70 @@ contributor:
   - dcite:ContactPerson
   - dcite:Author
   schemaKey: Person
+- awardNumber: Pioneer Award DP1-AT009925 (NCCIH)
+  includeInCitation: false
+  name: NIH Office of the Director Pioneer Award
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: R37-MH102441 (NIMH)
+  name: National Institute of Mental Health
+  schemaKey: Organization
+- awardNumber: ' R37 (MH102441)'
+  includeInCitation: true
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: R01MH139476
+  name: National Institute of Mental Health
+  schemaKey: Organization
+- awardNumber: R01MH115920 (NIMH)
+  includeInCitation: false
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: K00 (MH132569)
+  includeInCitation: true
+  name: NIH/NIMH Blueprint D-SPAN Award
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: RO1AA031656
+  includeInCitation: true
+  name: NIH/NIAAA
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: K12 (GM068524)
+  includeInCitation: true
+  name: NIH/NIGMS IRACDA Award
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: K99 DA055111
+  contactPoint: []
+  name: NIH/NIDA K99/R00 Pathway to Independence Award
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: AA029180
+  includeInCitation: true
+  name: NIH/NIDA K99/R00 Pathway to Independence Award
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- includeInCitation: true
+  name: 'Brain and Behavior Research Foundation Young Investigator Grant '
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- includeInCitation: true
+  name: Whitehall Foundation Grant
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2025-05-19T17:55:45.753450+00:00'
 description: 'This dandiset contains data used in the publication: Patel, R.R., Kim,
   K.N., Patarino, M. et al. Social isolation recruits amygdala–medial prefrontal cortex
