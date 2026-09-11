@@ -63,7 +63,7 @@ citation: Patel, Reesha R; Kim, Kelly; Patarino, Makenzie; Paminuan, Rachelle; T
   NIH/NIDA K99/R00 Pathway to Independence Award; Brain and Behavior Research Foundation
   Young Investigator Grant ; Whitehall Foundation Grant (2026) Data supporting "Social
   isolation recruits amygdala–medial prefrontal cortex projections to escalate alcohol
-  drinking in male mice" (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001454/draft
+  drinking in male mice" (Version 0.260911.2319) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001454/0.260911.2319
 contributor:
 - email: reesha.patel@northwestern.edu
   includeInCitation: true
@@ -296,6 +296,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2025-05-19T17:55:45.753450+00:00'
+datePublished: '2026-09-11T23:19:01.538045+00:00'
 description: 'This dandiset contains data used in the publication: Patel, R.R., Kim,
   K.N., Patarino, M. et al. Social isolation recruits amygdala–medial prefrontal cortex
   projections to escalate alcohol drinking in male mice. Nat Neurosci (2026). https://doi.org/10.1038/s41593-026-02413-x.  This
@@ -308,13 +309,14 @@ description: 'This dandiset contains data used in the publication: Patel, R.R., 
   J, Batra K, Keyes LR, Libster A, Wichmann R, Pereira TD, Benna MK, Tye KM. "Social
   isolation recruits amygdala-cortical circuitry to escalate alcohol drinking." bioRxiv:
   2023 Nov 10 doi: https://doi.org/10.1101/2023.11.09.566421.  '
+doi: 10.48324/dandi.001454/0.260911.2319
 ethicsApproval:
 - contactPoint:
     email: iacuc@salk.edu
     schemaKey: ContactPoint
   identifier: SIACUC18-00060
   schemaKey: EthicsApproval
-id: DANDI:001454/draft
+id: DANDI:001454/0.260911.2319
 identifier: DANDI:001454
 keywords:
 - mouse model
@@ -330,9 +332,21 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001454/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001454/0.260911.2319/assets.yaml
 name: Data supporting "Social isolation recruits amygdala–medial prefrontal cortex
   projections to escalate alcohol drinking in male mice"
+publishedBy:
+  endDate: '2026-09-11T23:19:01.538045+00:00'
+  id: urn:uuid:ea05c5fa-9de2-4849-8028-9e7018b3e73e
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-09-11T23:19:01.538045+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:46bbed65-abe3-472a-b3ba-5b777adc84f8
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - name: Social isolation recruits amygdala–medial prefrontal cortex projections to
     escalate alcohol drinking in male mice (Nature Neuro)
@@ -348,11 +362,14 @@ relatedResource:
   resourceType: dcite:Preprint
   schemaKey: Resource
   url: https://www.biorxiv.org/content/10.1101/2023.11.09.566421v1
+releaseNotes: This is our formal release of data associated with the manuscript.  We
+  have included all recordings and imaging data used in the Nature Neuroscience publication.  We
+  have updated contributors and funders.
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.9
 studyTarget:
 - How do social factors impact the brain and contribute to increased alcohol drinking?
-url: https://dandiarchive.org/dandiset/001454/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001454/0.260911.2319
+version: 0.260911.2319
 wasGeneratedBy: []
