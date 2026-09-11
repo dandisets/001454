@@ -3,7 +3,11 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.9/context.json
-about: []
+about:
+- name: Prelimbic Cortex (PrL)
+  schemaKey: Anatomy
+- name: Basolateral amygdalar nucleus, anterior part (BLAa)
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -50,40 +54,14 @@ assetsSummary:
   - OpticalChannel
   - CurrentClampSeries
   - CurrentClampStimulusSeries
-citation: Keyes, Laurel R; Tye, Kay M; Patel, Reesha R; Patarino, Makenzie; Kim, Kelly;
-  Paminuan, Rachelle; Taschbach, Felix H.; Li, Hao; Lee, Christopher R.; van Hoek,
-  Aniek; Cazares, Christian; Miranda, Raymundo L.; Jia, Caroline; Delahanty, Jeremy;
-  Batra, Kanha; Wichmann, Romy; Libster, Avraham; Pereira, Talmo D; Benna, Marcus
-  K; Joo, Bitna; White, Jesse (2026) Data supporting "Social isolation recruits amygdala–medial
-  prefrontal cortex projections to escalate alcohol drinking in male mice" (Version
-  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001454/draft
+citation: Patel, Reesha R; Kim, Kelly; Patarino, Makenzie; Paminuan, Rachelle; Taschbach,
+  Felix H.; Li, Hao; Joo, Bitna; Palle, Anna; Yu, Xianru; Lee, Christopher R.; van
+  Hoek, Aniek; White, Jesse; Castro, Rogelio; Cazares, Christian; Miranda, Raymundo
+  L.; Jia, Caroline; Delahanty, Jeremy; Batra, Kanha; Keyes, Laurel R; Libster, Avraham;
+  Wichmann, Romy; Pereira, Talmo D; Benna, Marcus K; Tye, Kay M (2026) Data supporting
+  "Social isolation recruits amygdala–medial prefrontal cortex projections to escalate
+  alcohol drinking in male mice" (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001454/draft
 contributor:
-- affiliation: []
-  email: lkeyes@salk.edu
-  identifier: 0000-0001-5433-9948
-  includeInCitation: true
-  name: Keyes, Laurel R
-  roleName:
-  - dcite:ContactPerson
-  - dcite:DataManager
-  - dcite:Author
-  schemaKey: Person
-- affiliation:
-  - identifier: https://ror.org/006w34k90
-    name: Howard Hughes Medical Institute
-    schemaKey: Affiliation
-  - identifier: https://ror.org/03xez1567
-    name: Salk Institute for Biological Studies
-    schemaKey: Affiliation
-  email: tye@salk.edu
-  identifier: 0000-0002-2435-0182
-  includeInCitation: true
-  name: Tye, Kay M
-  roleName:
-  - dcite:ProjectLeader
-  - dcite:ContactPerson
-  - dcite:Author
-  schemaKey: Person
 - email: reesha.patel@northwestern.edu
   includeInCitation: true
   name: Patel, Reesha R
@@ -135,14 +113,14 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
-- identifier: 0000-0002-9716-0507
-  includeInCitation: true
-  name: Patarino, Makenzie
+- includeInCitation: true
+  name: Kim, Kelly
   roleName:
   - dcite:Author
   schemaKey: Person
-- includeInCitation: true
-  name: Kim, Kelly
+- identifier: 0000-0002-9716-0507
+  includeInCitation: true
+  name: Patarino, Makenzie
   roleName:
   - dcite:Author
   schemaKey: Person
@@ -162,6 +140,18 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
+- identifier: 0000-0001-7063-8999
+  includeInCitation: true
+  name: Joo, Bitna
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- includeInCitation: true
+  name: Palle, Anna
+  schemaKey: Person
+- includeInCitation: true
+  name: Yu, Xianru
+  schemaKey: Person
 - identifier: 0000-0002-5952-9924
   includeInCitation: true
   name: Lee, Christopher R.
@@ -172,6 +162,14 @@ contributor:
   name: van Hoek, Aniek
   roleName:
   - dcite:Author
+  schemaKey: Person
+- includeInCitation: true
+  name: White, Jesse
+  roleName:
+  - dcite:DataCollector
+  schemaKey: Person
+- includeInCitation: true
+  name: Castro, Rogelio
   schemaKey: Person
 - identifier: 0000-0002-8899-2109
   includeInCitation: true
@@ -201,14 +199,24 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
-- identifier: 0000-0002-4506-8813
+- affiliation: []
+  email: lkeyes@salk.edu
+  identifier: 0000-0001-5433-9948
   includeInCitation: true
-  name: Wichmann, Romy
+  name: Keyes, Laurel R
   roleName:
+  - dcite:ContactPerson
+  - dcite:DataManager
   - dcite:Author
   schemaKey: Person
 - includeInCitation: true
   name: Libster, Avraham
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- identifier: 0000-0002-4506-8813
+  includeInCitation: true
+  name: Wichmann, Romy
   roleName:
   - dcite:Author
   schemaKey: Person
@@ -224,16 +232,21 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
-- identifier: 0000-0001-7063-8999
+- affiliation:
+  - identifier: https://ror.org/006w34k90
+    name: Howard Hughes Medical Institute
+    schemaKey: Affiliation
+  - identifier: https://ror.org/03xez1567
+    name: Salk Institute for Biological Studies
+    schemaKey: Affiliation
+  email: tye@salk.edu
+  identifier: 0000-0002-2435-0182
   includeInCitation: true
-  name: Joo, Bitna
+  name: Tye, Kay M
   roleName:
-  - dcite:DataCollector
-  schemaKey: Person
-- includeInCitation: true
-  name: White, Jesse
-  roleName:
-  - dcite:DataCollector
+  - dcite:ProjectLeader
+  - dcite:ContactPerson
+  - dcite:Author
   schemaKey: Person
 dateCreated: '2025-05-19T17:55:45.753450+00:00'
 description: 'This dandiset contains data used in the publication: Patel, R.R., Kim,
