@@ -8,6 +8,15 @@ about:
   schemaKey: Anatomy
 - name: Basolateral amygdalar nucleus, anterior part (BLAa)
   schemaKey: Anatomy
+- identifier: https://purl.brain-bican.org/ontology/mbao/MBA_972
+  name: Prelimbic area
+  schemaKey: Anatomy
+- identifier: https://purl.brain-bican.org/ontology/mbao/MBA_303
+  name: Basolateral amygdalar nucleus, anterior part
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/DOID_1574
+  name: alcohol use disorder
+  schemaKey: Disorder
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -65,7 +74,12 @@ citation: Patel, Reesha R; Kim, Kelly; Patarino, Makenzie; Paminuan, Rachelle; T
   isolation recruits amygdala–medial prefrontal cortex projections to escalate alcohol
   drinking in male mice" (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001454/draft
 contributor:
-- email: reesha.patel@northwestern.edu
+- affiliation:
+  - identifier: https://ror.org/000e0be47
+    name: Northwestern University
+    schemaKey: Affiliation
+  email: reesha.patel@northwestern.edu
+  identifier: 0000-0003-3913-6311
   includeInCitation: true
   name: Patel, Reesha R
   roleName:
@@ -73,7 +87,8 @@ contributor:
   - dcite:Author
   - dcite:ProjectManager
   schemaKey: Person
-- includeInCitation: true
+- identifier: 0009-0001-0970-566X
+  includeInCitation: true
   name: Kim, Kelly
   roleName:
   - dcite:Author
@@ -84,12 +99,14 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
-- includeInCitation: true
+- identifier: 0009-0004-1900-3276
+  includeInCitation: true
   name: Paminuan, Rachelle
   roleName:
   - dcite:Author
   schemaKey: Person
-- includeInCitation: true
+- identifier: 0000-0001-5345-5787
+  includeInCitation: true
   name: Taschbach, Felix H.
   roleName:
   - dcite:Author
@@ -129,7 +146,8 @@ contributor:
 - awardNumber: K99/R00 Pathway to Independence Award (AA029180)
   name: NIH/NIAAA
   schemaKey: Organization
-- includeInCitation: true
+- identifier: 0000-0003-0389-1366
+  includeInCitation: true
   name: Palle, Anna
   schemaKey: Person
 - includeInCitation: true
@@ -160,7 +178,8 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
-- includeInCitation: true
+- identifier: 0009-0009-9694-1545
+  includeInCitation: true
   name: Miranda, Raymundo L.
   roleName:
   - dcite:Author
@@ -171,7 +190,8 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
-- includeInCitation: true
+- identifier: 0000-0002-4200-3352
+  includeInCitation: true
   name: Delahanty, Jeremy
   roleName:
   - dcite:Author
@@ -192,7 +212,8 @@ contributor:
   - dcite:DataManager
   - dcite:Author
   schemaKey: Person
-- includeInCitation: true
+- identifier: 0000-0003-0612-8067
+  includeInCitation: true
   name: Libster, Avraham
   roleName:
   - dcite:Author
